@@ -1,0 +1,57 @@
+* {
+    background-color: black;
+    color: rgb(162, 29, 29);
+}
+
+QPushButton {
+    border: 1px solid rgb(162, 29, 29);
+}
+
+QSlider {
+    padding: 0;
+    margin: 0;
+}
+
+QSlider::groove:horizontal {
+    height: 5px;
+    background: rgb(87, 16, 16);
+    padding: 0;
+    margin: 0;
+}
+
+QSlider::handle:horizontal {
+    background: rgb(162, 29, 29);
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    margin: -15px 0;
+    padding: 0;
+}
+
+QSlider::groove:vertical {
+    width: 5px;
+    background: rgb(162, 29, 29);
+    border: 1px solid rgb(129, 3, 3);
+    padding: 0;
+    margin: 0;
+}
+
+QSlider::handle:vertical {
+    background: rgb(162, 29, 29);
+    border: 1px solid rgb(129, 3, 3);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    margin: 0 -15px;
+    padding: 0;
+}
+
+#status_bar {
+    font-size: 6px;
+    background-color: rgb(129, 3, 3);
+}
+
+#status_bar QLabel {
+    background-color: black;
+    padding: 0 10px;
+}
